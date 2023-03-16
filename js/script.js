@@ -5,6 +5,7 @@
 // This file contains the JS functions for index.html
 
 function doMathClicked() {
-  document.getElementById("perimeter-math").innerHTML = "<p class='mdl-content'>2(5 + 3) = " + (2 * (5 + 3)) + "</p>"
-  document.getElementById("area-math").innerHTML = "<p class='mdl-content'>5 × 3 = " + (5 * 3) + "</p>"
+  document.getElementById("perimeter-math").innerHTML = "<p class='mdl-content'>The perimeter of this shape is: " + (2 * (5 + 3)) + " cm</p>"
+  document.getElementById("area-math").innerHTML =
+    "<p class='mdl-content'>The area of this shape is: " + 5 * 3 + " cm²</p>"
 }
